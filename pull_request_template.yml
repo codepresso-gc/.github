@@ -1,0 +1,13 @@
+version: 2
+pull_request_templates:
+  - name: External Contributor Template
+    description: Template for external contributors
+    file: PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE_external.md
+    branches:
+      - main
+
+  - name: Default Template
+    description: General template for all PRs
+    file: PULL_REQUEST_TEMPLATE/PULL_REQUEST_TEMPLATE.md
+    branches:
+      - main
